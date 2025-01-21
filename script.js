@@ -31,7 +31,7 @@ function findClosestLift(lifts, targetFloor) {
 
   return closestLift;
 }
-for(let i = 0; i < 5; i++) {
+for(let i = 0; i < 20; i++) {
   let button = document.createElement("div")
   button.classList.add("range")
   button.id = i
